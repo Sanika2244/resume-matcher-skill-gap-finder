@@ -1,0 +1,78 @@
+/* src/Login.css */
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.login-container input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 15px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* src/Login.css */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

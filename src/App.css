@@ -1,0 +1,148 @@
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: "Segoe UI", sans-serif;
+  text-align: left;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.result-box {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.spinner {
+  margin-right: 8px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #333;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.reset-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.reset-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.green {
+  background-color: #4caf50;
+}
+
+.orange {
+  background-color: #ff9800;
+}
+
+.red {
+  background-color: #f44336;
+}
+
+
+.score-badge {
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.score-badge.green {
+  background-color: #28a745;
+}
+
+.score-badge.orange {
+  background-color: #fd7e14;
+}
+
+.score-badge.red {
+  background-color: #dc3545;
+}
+
+.timestamp {
+  font-style: italic;
+  margin-top: 12px;
+  color: #444;
+}
+
+
+.history-section {
+  margin-top: 30px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+.history-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.history-section th {
+  background: #dce4f7;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.input-field {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
