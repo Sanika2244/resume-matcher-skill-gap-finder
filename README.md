@@ -40,4 +40,28 @@ cd resumematcher
 ./mvnw spring-boot:run
 
 
+2️⃣ Python Service (if separated)
+bash
+Copy
+Edit
+cd nlp-matcher
+python app.py
+
+
+3️⃣ Frontend (React)
+bash
+Copy
+Edit
+cd resume-matcher-frontend
+npm install
+npm start
+
+
+4️⃣ Open in Browser
+arduino
+Copy
+Edit
+http://localhost:3000
+
+
 
