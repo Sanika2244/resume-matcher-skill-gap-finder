@@ -28,11 +28,6 @@ An AI-powered web application that matches candidate resumes with job descriptio
 | Export       | jsPDF + FileSaver.js |
 | Hosting      | GitHub (Demo link locally run) |
 
----
-
-## 📸 Screenshots
-
-> _Optional: Add screenshots here after pushing UI_
 
 ---
 
